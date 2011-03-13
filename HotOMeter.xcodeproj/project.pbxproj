@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1573E04132C486B00CB0E2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1573E03132C486B00CB0E2A /* UIKit.framework */; };
+		A1573E06132C486B00CB0E2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1573E05132C486B00CB0E2A /* Foundation.framework */; };
+		A1573E08132C486B00CB0E2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1573E07132C486B00CB0E2A /* CoreGraphics.framework */; };
+		A1573E0E132C486B00CB0E2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1573E0C132C486B00CB0E2A /* InfoPlist.strings */; };
+		A1573E11132C486B00CB0E2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1573E10132C486B00CB0E2A /* main.m */; };
+		A1573E14132C486B00CB0E2A /* HotOMeterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1573E13132C486B00CB0E2A /* HotOMeterAppDelegate.m */; };
+		A1573E17132C486B00CB0E2A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1573E15132C486B00CB0E2A /* MainWindow.xib */; };
+		A1573E1A132C486B00CB0E2A /* HotOMeterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1573E19132C486B00CB0E2A /* HotOMeterViewController.m */; };
+		A1573E1D132C486B00CB0E2A /* HotOMeterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1573E1B132C486B00CB0E2A /* HotOMeterViewController.xib */; };
+		A1573E24132C486B00CB0E2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1573E03132C486B00CB0E2A /* UIKit.framework */; };
+		A1573E25132C486B00CB0E2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1573E05132C486B00CB0E2A /* Foundation.framework */; };
+		A1573E26132C486B00CB0E2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1573E07132C486B00CB0E2A /* CoreGraphics.framework */; };
+		A1573E2E132C486B00CB0E2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1573E2C132C486B00CB0E2A /* InfoPlist.strings */; };
+		A1573E31132C486B00CB0E2A /* HotOMeterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A1573E30132C486B00CB0E2A /* HotOMeterTests.h */; };
+		A1573E33132C486B00CB0E2A /* HotOMeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1573E32132C486B00CB0E2A /* HotOMeterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1573E27132C486B00CB0E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1573DF6132C486B00CB0E2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1573DFE132C486B00CB0E2A;
+			remoteInfo = HotOMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1573DFF132C486B00CB0E2A /* HotOMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotOMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1573E03132C486B00CB0E2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1573E05132C486B00CB0E2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1573E07132C486B00CB0E2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1573E0B132C486B00CB0E2A /* HotOMeter-Info.plist */ = {isa = PBXFileReference; path = "HotOMeter-Info.plist"; sourceTree = "<group>"; };
+		A1573E0D132C486B00CB0E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1573E0F132C486B00CB0E2A /* HotOMeter-Prefix.pch */ = {isa = PBXFileReference; path = "HotOMeter-Prefix.pch"; sourceTree = "<group>"; };
+		A1573E10132C486B00CB0E2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1573E12132C486B00CB0E2A /* HotOMeterAppDelegate.h */ = {isa = PBXFileReference; path = HotOMeterAppDelegate.h; sourceTree = "<group>"; };
+		A1573E13132C486B00CB0E2A /* HotOMeterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotOMeterAppDelegate.m; sourceTree = "<group>"; };
+		A1573E16132C486B00CB0E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A1573E18132C486B00CB0E2A /* HotOMeterViewController.h */ = {isa = PBXFileReference; path = HotOMeterViewController.h; sourceTree = "<group>"; };
+		A1573E19132C486B00CB0E2A /* HotOMeterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotOMeterViewController.m; sourceTree = "<group>"; };
+		A1573E1C132C486B00CB0E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HotOMeterViewController.xib; sourceTree = "<group>"; };
+		A1573E23132C486B00CB0E2A /* HotOMeterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotOMeterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1573E2B132C486B00CB0E2A /* HotOMeterTests-Info.plist */ = {isa = PBXFileReference; path = "HotOMeterTests-Info.plist"; sourceTree = "<group>"; };
+		A1573E2D132C486B00CB0E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1573E2F132C486B00CB0E2A /* HotOMeterTests-Prefix.pch */ = {isa = PBXFileReference; path = "HotOMeterTests-Prefix.pch"; sourceTree = "<group>"; };
+		A1573E30132C486B00CB0E2A /* HotOMeterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotOMeterTests.h; sourceTree = "<group>"; };
+		A1573E32132C486B00CB0E2A /* HotOMeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotOMeterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1573DFC132C486B00CB0E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1573E04132C486B00CB0E2A /* UIKit.framework in Frameworks */,
+				A1573E06132C486B00CB0E2A /* Foundation.framework in Frameworks */,
+				A1573E08132C486B00CB0E2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1573E1F132C486B00CB0E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1573E24132C486B00CB0E2A /* UIKit.framework in Frameworks */,
+				A1573E25132C486B00CB0E2A /* Foundation.framework in Frameworks */,
+				A1573E26132C486B00CB0E2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1573DF4132C486B00CB0E2A = {
+			isa = PBXGroup;
+			children = (
+				A1573E09132C486B00CB0E2A /* HotOMeter */,
+				A1573E29132C486B00CB0E2A /* HotOMeterTests */,
+				A1573E02132C486B00CB0E2A /* Frameworks */,
+				A1573E00132C486B00CB0E2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1573E00132C486B00CB0E2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1573DFF132C486B00CB0E2A /* HotOMeter.app */,
+				A1573E23132C486B00CB0E2A /* HotOMeterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1573E02132C486B00CB0E2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1573E03132C486B00CB0E2A /* UIKit.framework */,
+				A1573E05132C486B00CB0E2A /* Foundation.framework */,
+				A1573E07132C486B00CB0E2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1573E09132C486B00CB0E2A /* HotOMeter */ = {
+			isa = PBXGroup;
+			children = (
+				A1573E12132C486B00CB0E2A /* HotOMeterAppDelegate.h */,
+				A1573E13132C486B00CB0E2A /* HotOMeterAppDelegate.m */,
+				A1573E15132C486B00CB0E2A /* MainWindow.xib */,
+				A1573E18132C486B00CB0E2A /* HotOMeterViewController.h */,
+				A1573E19132C486B00CB0E2A /* HotOMeterViewController.m */,
+				A1573E1B132C486B00CB0E2A /* HotOMeterViewController.xib */,
+				A1573E0A132C486B00CB0E2A /* Supporting Files */,
+			);
+			path = HotOMeter;
+			sourceTree = "<group>";
+		};
+		A1573E0A132C486B00CB0E2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1573E0B132C486B00CB0E2A /* HotOMeter-Info.plist */,
+				A1573E0C132C486B00CB0E2A /* InfoPlist.strings */,
+				A1573E0F132C486B00CB0E2A /* HotOMeter-Prefix.pch */,
+				A1573E10132C486B00CB0E2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1573E29132C486B00CB0E2A /* HotOMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1573E30132C486B00CB0E2A /* HotOMeterTests.h */,
+				A1573E32132C486B00CB0E2A /* HotOMeterTests.m */,
+				A1573E2A132C486B00CB0E2A /* Supporting Files */,
+			);
+			path = HotOMeterTests;
+			sourceTree = "<group>";
+		};
+		A1573E2A132C486B00CB0E2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1573E2B132C486B00CB0E2A /* HotOMeterTests-Info.plist */,
+				A1573E2C132C486B00CB0E2A /* InfoPlist.strings */,
+				A1573E2F132C486B00CB0E2A /* HotOMeterTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1573DFE132C486B00CB0E2A /* HotOMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1573E36132C486B00CB0E2A /* Build configuration list for PBXNativeTarget "HotOMeter" */;
+			buildPhases = (
+				A1573DFB132C486B00CB0E2A /* Sources */,
+				A1573DFC132C486B00CB0E2A /* Frameworks */,
+				A1573DFD132C486B00CB0E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotOMeter;
+			productName = HotOMeter;
+			productReference = A1573DFF132C486B00CB0E2A /* HotOMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1573E22132C486B00CB0E2A /* HotOMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1573E39132C486B00CB0E2A /* Build configuration list for PBXNativeTarget "HotOMeterTests" */;
+			buildPhases = (
+				A1573E1E132C486B00CB0E2A /* Sources */,
+				A1573E1F132C486B00CB0E2A /* Frameworks */,
+				A1573E20132C486B00CB0E2A /* Resources */,
+				A1573E21132C486B00CB0E2A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1573E28132C486B00CB0E2A /* PBXTargetDependency */,
+			);
+			name = HotOMeterTests;
+			productName = HotOMeterTests;
+			productReference = A1573E23132C486B00CB0E2A /* HotOMeterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1573DF6132C486B00CB0E2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = NA;
+			};
+			buildConfigurationList = A1573DF9132C486B00CB0E2A /* Build configuration list for PBXProject "HotOMeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1573DF4132C486B00CB0E2A;
+			productRefGroup = A1573E00132C486B00CB0E2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1573DFE132C486B00CB0E2A /* HotOMeter */,
+				A1573E22132C486B00CB0E2A /* HotOMeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1573DFD132C486B00CB0E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1573E0E132C486B00CB0E2A /* InfoPlist.strings in Resources */,
+				A1573E17132C486B00CB0E2A /* MainWindow.xib in Resources */,
+				A1573E1D132C486B00CB0E2A /* HotOMeterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1573E20132C486B00CB0E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1573E2E132C486B00CB0E2A /* InfoPlist.strings in Resources */,
+				A1573E31132C486B00CB0E2A /* HotOMeterTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1573E21132C486B00CB0E2A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1573DFB132C486B00CB0E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1573E11132C486B00CB0E2A /* main.m in Sources */,
+				A1573E14132C486B00CB0E2A /* HotOMeterAppDelegate.m in Sources */,
+				A1573E1A132C486B00CB0E2A /* HotOMeterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1573E1E132C486B00CB0E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1573E33132C486B00CB0E2A /* HotOMeterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1573E28132C486B00CB0E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1573DFE132C486B00CB0E2A /* HotOMeter */;
+			targetProxy = A1573E27132C486B00CB0E2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1573E0C132C486B00CB0E2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1573E0D132C486B00CB0E2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1573E15132C486B00CB0E2A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1573E16132C486B00CB0E2A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A1573E1B132C486B00CB0E2A /* HotOMeterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1573E1C132C486B00CB0E2A /* en */,
+			);
+			name = HotOMeterViewController.xib;
+			sourceTree = "<group>";
+		};
+		A1573E2C132C486B00CB0E2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1573E2D132C486B00CB0E2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1573E34132C486B00CB0E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1573E35132C486B00CB0E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A1573E37132C486B00CB0E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotOMeter/HotOMeter-Prefix.pch";
+				INFOPLIST_FILE = "HotOMeter/HotOMeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1573E38132C486B00CB0E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotOMeter/HotOMeter-Prefix.pch";
+				INFOPLIST_FILE = "HotOMeter/HotOMeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A1573E3A132C486B00CB0E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HotOMeter.app/HotOMeter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotOMeterTests/HotOMeterTests-Prefix.pch";
+				INFOPLIST_FILE = "HotOMeterTests/HotOMeterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A1573E3B132C486B00CB0E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HotOMeter.app/HotOMeter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotOMeterTests/HotOMeterTests-Prefix.pch";
+				INFOPLIST_FILE = "HotOMeterTests/HotOMeterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1573DF9132C486B00CB0E2A /* Build configuration list for PBXProject "HotOMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1573E34132C486B00CB0E2A /* Debug */,
+				A1573E35132C486B00CB0E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1573E36132C486B00CB0E2A /* Build configuration list for PBXNativeTarget "HotOMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1573E37132C486B00CB0E2A /* Debug */,
+				A1573E38132C486B00CB0E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1573E39132C486B00CB0E2A /* Build configuration list for PBXNativeTarget "HotOMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1573E3A132C486B00CB0E2A /* Debug */,
+				A1573E3B132C486B00CB0E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1573DF6132C486B00CB0E2A /* Project object */;
+}
