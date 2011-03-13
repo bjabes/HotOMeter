@@ -39,20 +39,20 @@
 		A1573E03132C486B00CB0E2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A1573E05132C486B00CB0E2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1573E07132C486B00CB0E2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A1573E0B132C486B00CB0E2A /* HotOMeter-Info.plist */ = {isa = PBXFileReference; path = "HotOMeter-Info.plist"; sourceTree = "<group>"; };
+		A1573E0B132C486B00CB0E2A /* HotOMeter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotOMeter-Info.plist"; sourceTree = "<group>"; };
 		A1573E0D132C486B00CB0E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A1573E0F132C486B00CB0E2A /* HotOMeter-Prefix.pch */ = {isa = PBXFileReference; path = "HotOMeter-Prefix.pch"; sourceTree = "<group>"; };
+		A1573E0F132C486B00CB0E2A /* HotOMeter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotOMeter-Prefix.pch"; sourceTree = "<group>"; };
 		A1573E10132C486B00CB0E2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1573E12132C486B00CB0E2A /* HotOMeterAppDelegate.h */ = {isa = PBXFileReference; path = HotOMeterAppDelegate.h; sourceTree = "<group>"; };
+		A1573E12132C486B00CB0E2A /* HotOMeterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotOMeterAppDelegate.h; sourceTree = "<group>"; };
 		A1573E13132C486B00CB0E2A /* HotOMeterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotOMeterAppDelegate.m; sourceTree = "<group>"; };
 		A1573E16132C486B00CB0E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		A1573E18132C486B00CB0E2A /* HotOMeterViewController.h */ = {isa = PBXFileReference; path = HotOMeterViewController.h; sourceTree = "<group>"; };
+		A1573E18132C486B00CB0E2A /* HotOMeterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotOMeterViewController.h; sourceTree = "<group>"; };
 		A1573E19132C486B00CB0E2A /* HotOMeterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotOMeterViewController.m; sourceTree = "<group>"; };
 		A1573E1C132C486B00CB0E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HotOMeterViewController.xib; sourceTree = "<group>"; };
 		A1573E23132C486B00CB0E2A /* HotOMeterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotOMeterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1573E2B132C486B00CB0E2A /* HotOMeterTests-Info.plist */ = {isa = PBXFileReference; path = "HotOMeterTests-Info.plist"; sourceTree = "<group>"; };
+		A1573E2B132C486B00CB0E2A /* HotOMeterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotOMeterTests-Info.plist"; sourceTree = "<group>"; };
 		A1573E2D132C486B00CB0E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A1573E2F132C486B00CB0E2A /* HotOMeterTests-Prefix.pch */ = {isa = PBXFileReference; path = "HotOMeterTests-Prefix.pch"; sourceTree = "<group>"; };
+		A1573E2F132C486B00CB0E2A /* HotOMeterTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotOMeterTests-Prefix.pch"; sourceTree = "<group>"; };
 		A1573E30132C486B00CB0E2A /* HotOMeterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotOMeterTests.h; sourceTree = "<group>"; };
 		A1573E32132C486B00CB0E2A /* HotOMeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotOMeterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
