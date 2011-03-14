@@ -26,7 +26,6 @@
 
 - (IBAction)slideAction:(UISlider *)sender
 {
-  NSLog(@"HAH");
 }
 
 - (void)rateAction:(UIBarButtonItem *)sender event:(UIEvent *)event
@@ -53,10 +52,10 @@
 {
   [super viewDidLoad];
   sliderView = [[HotOMeterView alloc] initWithFrame:CGRectMake(0,0,300,80)];
-//  sliderView.backgroundColor = [UIColor redColor];
+//  sliderView.backgroundColor = [UIColor darkGrayColor];
   [[sliderView slider] addTarget:self action:@selector(slideAction:) forControlEvents:UIControlEventValueChanged];
   [[sliderView slider] addTarget:self action:@selector(slideTouchesBegan:withEvent:) forControlEvents:UIControlEventTouchDown];
-  [[sliderView slider] addTarget:self action:@selector(slideTouchesEnded:withEvent:) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchDragOutside];
+  [[sliderView slider] addTarget:self action:@selector(slideTouchesEnded:withEvent:) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchUpOutside | UIControlEventTouchCancel];
   sliderView.alpha = 0.5;
   sliderView.center = CGPointMake(self.view.bounds.size.width, self.view.bounds.size.height-240);
 
@@ -67,7 +66,7 @@
 - (void)slideTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
   CGPoint startPoint = CGPointMake(self.view.bounds.size.width, self.view.bounds.size.height-240);
-  CGPoint endPoint = CGPointMake(self.view.bounds.size.width-32, self.view.bounds.size.height-240);
+  CGPoint endPoint = CGPointMake(self.view.bounds.size.width-20, self.view.bounds.size.height-240);
   
   sliderView.center = startPoint;
   
@@ -80,7 +79,7 @@
 - (void)slideTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
   CGPoint startPoint = CGPointMake(self.view.bounds.size.width, self.view.bounds.size.height-240);
-  CGPoint endPoint = CGPointMake(self.view.bounds.size.width-32, self.view.bounds.size.height-240);
+  CGPoint endPoint = CGPointMake(self.view.bounds.size.width-20, self.view.bounds.size.height-240);
   
   sliderView.center = endPoint;
 

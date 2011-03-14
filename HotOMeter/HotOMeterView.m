@@ -19,7 +19,7 @@
   if (self) {
 
     // init the slider and make it transparent
-    slider = [[UISlider alloc] initWithFrame: CGRectMake(0, 12, frame.size.width, frame.size.height)];
+    slider = [[UISlider alloc] initWithFrame: CGRectMake(0, 0, frame.size.width, frame.size.height)];
     [slider setMinimumTrackImage:[[UIImage alloc] init] forState:UIControlStateNormal];
     [slider setMaximumTrackImage:[[UIImage alloc] init] forState:UIControlStateNormal];
     
@@ -33,7 +33,7 @@
     [slider setContinuous:YES];
     
     // init the background image
-    UIImage *image = [UIImage imageNamed:@"slider_track.png"];
+    UIImage *image = [UIImage imageNamed:@"hotometer3.png"];
     background = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, image.size.height)];
     background.autoresizingMask = UIViewAutoresizingNone;
     background.image = image;

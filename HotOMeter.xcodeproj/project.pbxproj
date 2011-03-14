@@ -32,6 +32,8 @@
 		A1573E63132DAE8200CB0E2A /* HotOMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1573E62132DAE7D00CB0E2A /* HotOMeterView.m */; };
 		A1573E67132DE71C00CB0E2A /* slider_track.png in Resources */ = {isa = PBXBuildFile; fileRef = A1573E66132DE71B00CB0E2A /* slider_track.png */; };
 		A1573E69132DE7F500CB0E2A /* slider_handle_dynos.png in Resources */ = {isa = PBXBuildFile; fileRef = A1573E68132DE7F400CB0E2A /* slider_handle_dynos.png */; };
+		A1E787AD132DFD9A00B3B740 /* slider_track2.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E787AC132DFD9A00B3B740 /* slider_track2.png */; };
+		A1E787B0132E00AF00B3B740 /* hotometer3.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E787AF132E00AF00B3B740 /* hotometer3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		A1573E62132DAE7D00CB0E2A /* HotOMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotOMeterView.m; sourceTree = "<group>"; };
 		A1573E66132DE71B00CB0E2A /* slider_track.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_track.png; sourceTree = "<group>"; };
 		A1573E68132DE7F400CB0E2A /* slider_handle_dynos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_handle_dynos.png; sourceTree = "<group>"; };
+		A1E787AC132DFD9A00B3B740 /* slider_track2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_track2.png; sourceTree = "<group>"; };
+		A1E787AF132E00AF00B3B740 /* hotometer3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotometer3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,8 @@
 		A1573E09132C486B00CB0E2A /* HotOMeter */ = {
 			isa = PBXGroup;
 			children = (
+				A1E787AF132E00AF00B3B740 /* hotometer3.png */,
+				A1E787AC132DFD9A00B3B740 /* slider_track2.png */,
 				A1573E68132DE7F400CB0E2A /* slider_handle_dynos.png */,
 				A1573E66132DE71B00CB0E2A /* slider_track.png */,
 				A1573E5A132DA1E900CB0E2A /* thumb-1.png */,
@@ -269,6 +275,8 @@
 				A1573E5D132DA63800CB0E2A /* TestView.xib in Resources */,
 				A1573E67132DE71C00CB0E2A /* slider_track.png in Resources */,
 				A1573E69132DE7F500CB0E2A /* slider_handle_dynos.png in Resources */,
+				A1E787AD132DFD9A00B3B740 /* slider_track2.png in Resources */,
+				A1E787B0132E00AF00B3B740 /* hotometer3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +488,7 @@
 				A1573E38132C486B00CB0E2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1573E39132C486B00CB0E2A /* Build configuration list for PBXNativeTarget "HotOMeterTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +497,7 @@
 				A1573E3B132C486B00CB0E2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
