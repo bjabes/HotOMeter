@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface HotOMeterViewController : UIViewController {
-    
+  IBOutlet UISlider *slider;
+  IBOutlet UIView *sliderView;
 }
+
+- (IBAction)sliderAction:(UISlider *)sender;
 
 @end

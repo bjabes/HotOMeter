@@ -14,14 +14,24 @@
 		A1573E11132C486B00CB0E2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1573E10132C486B00CB0E2A /* main.m */; };
 		A1573E14132C486B00CB0E2A /* HotOMeterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1573E13132C486B00CB0E2A /* HotOMeterAppDelegate.m */; };
 		A1573E17132C486B00CB0E2A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1573E15132C486B00CB0E2A /* MainWindow.xib */; };
-		A1573E1A132C486B00CB0E2A /* HotOMeterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1573E19132C486B00CB0E2A /* HotOMeterViewController.m */; };
-		A1573E1D132C486B00CB0E2A /* HotOMeterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1573E1B132C486B00CB0E2A /* HotOMeterViewController.xib */; };
 		A1573E24132C486B00CB0E2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1573E03132C486B00CB0E2A /* UIKit.framework */; };
 		A1573E25132C486B00CB0E2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1573E05132C486B00CB0E2A /* Foundation.framework */; };
 		A1573E26132C486B00CB0E2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1573E07132C486B00CB0E2A /* CoreGraphics.framework */; };
 		A1573E2E132C486B00CB0E2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1573E2C132C486B00CB0E2A /* InfoPlist.strings */; };
 		A1573E31132C486B00CB0E2A /* HotOMeterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A1573E30132C486B00CB0E2A /* HotOMeterTests.h */; };
 		A1573E33132C486B00CB0E2A /* HotOMeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1573E32132C486B00CB0E2A /* HotOMeterTests.m */; };
+		A1573E4B132D5C7500CB0E2A /* trackimg.png in Resources */ = {isa = PBXBuildFile; fileRef = A1573E4A132D5C7500CB0E2A /* trackimg.png */; };
+		A1573E4D132D723500CB0E2A /* hotometer.png in Resources */ = {isa = PBXBuildFile; fileRef = A1573E4C132D723500CB0E2A /* hotometer.png */; };
+		A1573E51132D840E00CB0E2A /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = A1573E50132D840D00CB0E2A /* test.png */; };
+		A1573E53132D952800CB0E2A /* hot_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1573E52132D952800CB0E2A /* hot_icon.png */; };
+		A1573E55132D97AA00CB0E2A /* hot_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = A1573E54132D97AA00CB0E2A /* hot_icon2.png */; };
+		A1573E57132D9D2300CB0E2A /* hotometer2.png in Resources */ = {isa = PBXBuildFile; fileRef = A1573E56132D9D2200CB0E2A /* hotometer2.png */; };
+		A1573E5B132DA1E900CB0E2A /* thumb-1.png in Resources */ = {isa = PBXBuildFile; fileRef = A1573E5A132DA1E900CB0E2A /* thumb-1.png */; };
+		A1573E5D132DA63800CB0E2A /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1573E5C132DA63600CB0E2A /* TestView.xib */; };
+		A1573E60132DA75D00CB0E2A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1573E5F132DA75A00CB0E2A /* TestViewController.m */; };
+		A1573E63132DAE8200CB0E2A /* HotOMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1573E62132DAE7D00CB0E2A /* HotOMeterView.m */; };
+		A1573E67132DE71C00CB0E2A /* slider_track.png in Resources */ = {isa = PBXBuildFile; fileRef = A1573E66132DE71B00CB0E2A /* slider_track.png */; };
+		A1573E69132DE7F500CB0E2A /* slider_handle_dynos.png in Resources */ = {isa = PBXBuildFile; fileRef = A1573E68132DE7F400CB0E2A /* slider_handle_dynos.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,15 +56,26 @@
 		A1573E12132C486B00CB0E2A /* HotOMeterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotOMeterAppDelegate.h; sourceTree = "<group>"; };
 		A1573E13132C486B00CB0E2A /* HotOMeterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotOMeterAppDelegate.m; sourceTree = "<group>"; };
 		A1573E16132C486B00CB0E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		A1573E18132C486B00CB0E2A /* HotOMeterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotOMeterViewController.h; sourceTree = "<group>"; };
-		A1573E19132C486B00CB0E2A /* HotOMeterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotOMeterViewController.m; sourceTree = "<group>"; };
-		A1573E1C132C486B00CB0E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HotOMeterViewController.xib; sourceTree = "<group>"; };
 		A1573E23132C486B00CB0E2A /* HotOMeterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotOMeterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1573E2B132C486B00CB0E2A /* HotOMeterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotOMeterTests-Info.plist"; sourceTree = "<group>"; };
 		A1573E2D132C486B00CB0E2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1573E2F132C486B00CB0E2A /* HotOMeterTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotOMeterTests-Prefix.pch"; sourceTree = "<group>"; };
 		A1573E30132C486B00CB0E2A /* HotOMeterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotOMeterTests.h; sourceTree = "<group>"; };
 		A1573E32132C486B00CB0E2A /* HotOMeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotOMeterTests.m; sourceTree = "<group>"; };
+		A1573E4A132D5C7500CB0E2A /* trackimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackimg.png; sourceTree = "<group>"; };
+		A1573E4C132D723500CB0E2A /* hotometer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotometer.png; sourceTree = "<group>"; };
+		A1573E50132D840D00CB0E2A /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		A1573E52132D952800CB0E2A /* hot_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hot_icon.png; sourceTree = "<group>"; };
+		A1573E54132D97AA00CB0E2A /* hot_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hot_icon2.png; sourceTree = "<group>"; };
+		A1573E56132D9D2200CB0E2A /* hotometer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotometer2.png; sourceTree = "<group>"; };
+		A1573E5A132DA1E900CB0E2A /* thumb-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumb-1.png"; sourceTree = "<group>"; };
+		A1573E5C132DA63600CB0E2A /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		A1573E5E132DA75800CB0E2A /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A1573E5F132DA75A00CB0E2A /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		A1573E61132DAE7B00CB0E2A /* HotOMeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotOMeterView.h; sourceTree = "<group>"; };
+		A1573E62132DAE7D00CB0E2A /* HotOMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotOMeterView.m; sourceTree = "<group>"; };
+		A1573E66132DE71B00CB0E2A /* slider_track.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_track.png; sourceTree = "<group>"; };
+		A1573E68132DE7F400CB0E2A /* slider_handle_dynos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider_handle_dynos.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,13 +134,24 @@
 		A1573E09132C486B00CB0E2A /* HotOMeter */ = {
 			isa = PBXGroup;
 			children = (
+				A1573E68132DE7F400CB0E2A /* slider_handle_dynos.png */,
+				A1573E66132DE71B00CB0E2A /* slider_track.png */,
+				A1573E5A132DA1E900CB0E2A /* thumb-1.png */,
+				A1573E56132D9D2200CB0E2A /* hotometer2.png */,
+				A1573E54132D97AA00CB0E2A /* hot_icon2.png */,
+				A1573E52132D952800CB0E2A /* hot_icon.png */,
+				A1573E50132D840D00CB0E2A /* test.png */,
+				A1573E4C132D723500CB0E2A /* hotometer.png */,
+				A1573E4A132D5C7500CB0E2A /* trackimg.png */,
 				A1573E12132C486B00CB0E2A /* HotOMeterAppDelegate.h */,
 				A1573E13132C486B00CB0E2A /* HotOMeterAppDelegate.m */,
 				A1573E15132C486B00CB0E2A /* MainWindow.xib */,
-				A1573E18132C486B00CB0E2A /* HotOMeterViewController.h */,
-				A1573E19132C486B00CB0E2A /* HotOMeterViewController.m */,
-				A1573E1B132C486B00CB0E2A /* HotOMeterViewController.xib */,
 				A1573E0A132C486B00CB0E2A /* Supporting Files */,
+				A1573E5C132DA63600CB0E2A /* TestView.xib */,
+				A1573E5E132DA75800CB0E2A /* TestViewController.h */,
+				A1573E5F132DA75A00CB0E2A /* TestViewController.m */,
+				A1573E61132DAE7B00CB0E2A /* HotOMeterView.h */,
+				A1573E62132DAE7D00CB0E2A /* HotOMeterView.m */,
 			);
 			path = HotOMeter;
 			sourceTree = "<group>";
@@ -227,7 +259,16 @@
 			files = (
 				A1573E0E132C486B00CB0E2A /* InfoPlist.strings in Resources */,
 				A1573E17132C486B00CB0E2A /* MainWindow.xib in Resources */,
-				A1573E1D132C486B00CB0E2A /* HotOMeterViewController.xib in Resources */,
+				A1573E4B132D5C7500CB0E2A /* trackimg.png in Resources */,
+				A1573E4D132D723500CB0E2A /* hotometer.png in Resources */,
+				A1573E51132D840E00CB0E2A /* test.png in Resources */,
+				A1573E53132D952800CB0E2A /* hot_icon.png in Resources */,
+				A1573E55132D97AA00CB0E2A /* hot_icon2.png in Resources */,
+				A1573E57132D9D2300CB0E2A /* hotometer2.png in Resources */,
+				A1573E5B132DA1E900CB0E2A /* thumb-1.png in Resources */,
+				A1573E5D132DA63800CB0E2A /* TestView.xib in Resources */,
+				A1573E67132DE71C00CB0E2A /* slider_track.png in Resources */,
+				A1573E69132DE7F500CB0E2A /* slider_handle_dynos.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +306,8 @@
 			files = (
 				A1573E11132C486B00CB0E2A /* main.m in Sources */,
 				A1573E14132C486B00CB0E2A /* HotOMeterAppDelegate.m in Sources */,
-				A1573E1A132C486B00CB0E2A /* HotOMeterViewController.m in Sources */,
+				A1573E60132DA75D00CB0E2A /* TestViewController.m in Sources */,
+				A1573E63132DAE8200CB0E2A /* HotOMeterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,14 +346,6 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		A1573E1B132C486B00CB0E2A /* HotOMeterViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1573E1C132C486B00CB0E2A /* en */,
-			);
-			name = HotOMeterViewController.xib;
-			sourceTree = "<group>";
-		};
 		A1573E2C132C486B00CB0E2A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -332,7 +366,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
@@ -346,7 +380,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
