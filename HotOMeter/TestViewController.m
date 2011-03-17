@@ -52,7 +52,11 @@
 {
   [super viewDidLoad];
   sliderView = [[HotOMeterView alloc] initWithFrame:CGRectMake(0,0,300,80)];
-//  sliderView.backgroundColor = [UIColor darkGrayColor];
+
+  //sliderView.backgroundColor = [UIColor darkGrayColor];
+  
+  sliderView.delegate = self;
+  
   [[sliderView slider] addTarget:self action:@selector(slideAction:) forControlEvents:UIControlEventValueChanged];
   [[sliderView slider] addTarget:self action:@selector(slideTouchesBegan:withEvent:) forControlEvents:UIControlEventTouchDown];
   [[sliderView slider] addTarget:self action:@selector(slideTouchesEnded:withEvent:) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchUpOutside | UIControlEventTouchCancel];
@@ -63,7 +67,7 @@
   
 }
 
-- (void)slideTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+- (void)enterSlider
 {
   CGPoint startPoint = CGPointMake(self.view.bounds.size.width, self.view.bounds.size.height-240);
   CGPoint endPoint = CGPointMake(self.view.bounds.size.width-20, self.view.bounds.size.height-240);
@@ -72,21 +76,47 @@
   
   [UIView animateWithDuration:0.25 animations:^{
     sliderView.alpha = 1.0;
+    sliderView.transform = CGAffineTransformScale(sliderView.transform, 1.2, 1.2);
     sliderView.center = endPoint;
   }];
 }
 
-- (void)slideTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+- (void)exitSlider
 {
   CGPoint startPoint = CGPointMake(self.view.bounds.size.width, self.view.bounds.size.height-240);
   CGPoint endPoint = CGPointMake(self.view.bounds.size.width-20, self.view.bounds.size.height-240);
   
   sliderView.center = endPoint;
-
+  
   [UIView animateWithDuration:0.25 animations:^{
     sliderView.alpha = 0.5;
+    sliderView.transform = CGAffineTransformScale(sliderView.transform, 1.0/1.2, 1.0/1.2);
     sliderView.center = startPoint;
   }];
+}
+
+- (void)didBeginTouch
+{
+  [self enterSlider];
+}
+
+- (void)didEndTouch
+{
+  [self exitSlider];
+}
+
+- (void)didMoveTouch
+{
+}
+
+- (void)slideTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+  [self enterSlider];
+}
+
+- (void)slideTouchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+  [self exitSlider];
 }
 
 - (void)viewDidUnload

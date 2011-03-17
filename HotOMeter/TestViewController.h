@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "HotOMeterView.h"
 
-@interface TestViewController : UIViewController {
+@interface TestViewController : UIViewController<HotOMeterDelegate> {
   HotOMeterView *sliderView;
 }
 

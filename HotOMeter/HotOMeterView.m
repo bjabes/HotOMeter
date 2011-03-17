@@ -12,6 +12,7 @@
 @implementation HotOMeterView
 
 @synthesize slider;
+@synthesize delegate;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -29,7 +30,7 @@
     [slider setMinimumValue:1.0];
     [slider setMaximumValue:10.0];
     [slider setValue:5.0];
-    [slider setUserInteractionEnabled:YES];
+    [slider setUserInteractionEnabled:NO];
     [slider setContinuous:YES];
     
     // init the background image
@@ -48,10 +49,46 @@
     [self addSubview:background];
     [self addSubview:slider];
     
+    [self setUserInteractionEnabled:YES];
+    [self setMultipleTouchEnabled:YES];
+    
     [self setNeedsDisplay];
 
   }
   return self;
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+  CGPoint p = [[touches anyObject] locationInView:self];
+  CGFloat v = p.x / slider.bounds.size.width * slider.maximumValue;
+  [slider setValue:roundf(v)];
+  [super touchesBegan:touches withEvent:event];
+  [self.delegate didBeginTouch];
+}
+
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
+{
+  [self.delegate didEndTouch];
+  [super touchesCancelled:touches withEvent:event];
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+  CGPoint p = [[touches anyObject] locationInView:self];
+  CGFloat v = p.x / slider.bounds.size.width * slider.maximumValue;
+  [slider setValue:roundf(v)];
+  [super touchesEnded:touches withEvent:event];
+  [self.delegate didEndTouch];
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
+  CGPoint p = [[touches anyObject] locationInView:self];
+  CGFloat v = p.x / slider.bounds.size.width * slider.maximumValue;
+  [slider setValue:roundf(v)];
+  [super touchesMoved:touches withEvent:event];
+  [self.delegate didMoveTouch];
 }
 
 - (void)sliderAction:(UISlider *)sender
